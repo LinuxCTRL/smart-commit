@@ -2,10 +2,10 @@
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/LinuxCTRL/smart-git-commit?style=social)
-![GitHub forks](https://img.shields.io/github/forks/LinuxCTRL/smart-git-commit?style=social)
-![GitHub issues](https://img.shields.io/github/issues/LinuxCTRL/smart-git-commit)
-![GitHub license](https://img.shields.io/github/license/LinuxCTRL/smart-git-commit)
+![GitHub stars](https://img.shields.io/github/stars/LinuxCTRL/smart-commit?style=social)
+![GitHub forks](https://img.shields.io/github/forks/LinuxCTRL/smart-commit?style=social)
+![GitHub issues](https://img.shields.io/github/issues/LinuxCTRL/smart-commit)
+![GitHub license](https://img.shields.io/github/license/LinuxCTRL/smart-commit)
 ![Python version](https://img.shields.io/badge/python-3.7+-blue.svg)
 
 **Never write commit messages again!** 🚀
