@@ -55,7 +55,8 @@ Works perfectly without AI when API key is not available
 # 1. Clone the repository
 git clone https://github.com/LinuxCTRL/smart-git-commit.git
 cd smart-git-commit
-
+python3 -m venv .venv
+source .venv/bin/activate
 # 2. Install dependencies
 pip install requests
 
@@ -137,7 +138,7 @@ smart-commit --dry-run    # Preview mode
 ### Option 1: Automated Installer (Recommended)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/LinuxCTRL/smart-git-commit/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/LinuxCTRL/smart-commit/refs/heads/master/smart_commit.py | bash
 ```
 
 ### Option 2: Manual Installation
@@ -153,7 +154,7 @@ chmod +x install.sh
 
 ```bash
 # Download just the main script
-curl -O https://raw.githubusercontent.com/LinuxCTRL/smart-git-commit/main/smart_commit.py
+curl -O https://raw.githubusercontent.com/LinuxCTRL/smart-commit/refs/heads/master/smart_commit.py
 pip install requests
 python3 smart_commit.py
 ```
